@@ -19,7 +19,7 @@ webpack4 默认配置了 entry（入口） src/index.js 和output（出口） di
 entry: String/Array<string> 单个入口或多个入口   
 output: { path: 目标输出目录 path 的绝对路径, filename: 用于输出的文件名, publicPath: 上线时配置的是cdn的地址}   
 
-#### 使用loader的三种方式： 
+### 使用loader的三种方式： 
 * 配置（推荐）： 在 webpack.config.js 文件中指定 loader。 
 * 内联： 在每个 import 语句中显式指定 loader。 
 * CLI： 在 shell 命令中指定它们。    

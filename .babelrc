@@ -1,0 +1,20 @@
+{
+    "presets": [
+        ["@babel/preset-env", {
+            "targets": {
+              "node": "current",
+              "browsers": [ "ie >= 8", "chrome >= 62" ]
+            }
+          }]
+    ],
+    "plugins": ["@babel/plugin-transform-runtime","@babel/plugin-syntax-dynamic-import"],
+    // 基于环境配置插件
+    // "env": {
+    //     "development": {
+    //         "plugins": []
+    //     },
+    //     "production": {
+    //         "plugins": []
+    //     }
+    // }
+}
